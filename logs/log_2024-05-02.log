@@ -1,0 +1,576 @@
+[2024-05-02 19:45:53,320][INFO ][org.hibernate.validator.internal.util.Version][background-preinit][21]HV000001: Hibernate Validator 8.0.1.Final
+[2024-05-02 19:45:53,377][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting SpringAppApplication using Java 18.0.1.1 with PID 13624 (E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp\target\classes started by ridhogymnastiar in E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp)
+[2024-05-02 19:45:53,380][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-02 19:45:54,161][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-02 19:45:54,219][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+[2024-05-02 19:45:54,620][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-02 19:45:54,629][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-02 19:45:54,631][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-02 19:45:54,631][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-02 19:45:54,676][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-02 19:45:54,676][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1241 ms
+[2024-05-02 19:45:54,803][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-02 19:45:54,865][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-02 19:45:54,897][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-02 19:45:55,110][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-02 19:45:55,135][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-02 19:45:55,314][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7f8c48f3
+[2024-05-02 19:45:55,316][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-02 19:45:55,378][WARN ][org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl][main][153]HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-05-02 19:45:56,707][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-02 19:45:56,730][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:45:56,730][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee" does not exist, skipping
+[2024-05-02 19:45:56,731][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:45:56,731][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee_training" does not exist, skipping
+[2024-05-02 19:45:56,731][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:45:56,731][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee_training" does not exist, skipping
+[2024-05-02 19:45:56,732][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:45:56,732][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "rekening" does not exist, skipping
+[2024-05-02 19:45:56,733][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:45:56,733][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "detail_employee" does not exist, skipping
+[2024-05-02 19:45:56,734][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:45:56,734][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "employee" does not exist, skipping
+[2024-05-02 19:45:56,734][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:45:56,734][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "employee_training" does not exist, skipping
+[2024-05-02 19:45:56,734][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:45:56,734][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "rekening" does not exist, skipping
+[2024-05-02 19:45:56,735][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:45:56,735][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "training" does not exist, skipping
+[2024-05-02 19:45:56,840][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 19:45:57,125][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-02 19:45:57,188][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-02 19:45:57,499][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-02 19:45:57,514][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-02 19:45:57,521][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started SpringAppApplication in 4.746 seconds (process running for 5.675)
+[2024-05-02 19:45:57,524][ERROR][org.ergea.springapp.ch5.common.LoggerUtils][main][24]TEST ERROR
+java.lang.IllegalArgumentException: P
+	at org.ergea.springapp.SpringAppApplication.main(SpringAppApplication.java:13)
+[2024-05-02 19:45:57,525][INFO ][org.ergea.springapp.ch5.common.LoggerUtils][main][16]TEST INFO
+[2024-05-02 19:45:57,525][WARN ][org.ergea.springapp.ch5.common.LoggerUtils][main][20]TEST WARN
+[2024-05-02 19:46:37,486][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-02 19:46:37,486][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-02 19:46:37,489][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][554]Completed initialization in 3 ms
+[2024-05-02 19:46:37,619][ERROR][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][175]Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at org.ergea.springapp.ch4.service.impl.EmployeeServiceImpl.findById(EmployeeServiceImpl.java:59)
+	at org.ergea.springapp.ch4.controller.HelloController.findById(HelloController.java:59)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-05-02 19:46:44,296][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 19:46:44,355][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-02 19:46:44,359][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-02 19:46:47,730][INFO ][org.hibernate.validator.internal.util.Version][background-preinit][21]HV000001: Hibernate Validator 8.0.1.Final
+[2024-05-02 19:46:47,768][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting SpringAppApplication using Java 18.0.1.1 with PID 20532 (E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp\target\classes started by ridhogymnastiar in E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp)
+[2024-05-02 19:46:47,771][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-02 19:46:48,396][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-02 19:46:48,447][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+[2024-05-02 19:46:48,810][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-02 19:46:48,821][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-02 19:46:48,822][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-02 19:46:48,822][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-02 19:46:48,865][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-02 19:46:48,865][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1008 ms
+[2024-05-02 19:46:48,983][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-02 19:46:49,029][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-02 19:46:49,071][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-02 19:46:49,242][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-02 19:46:49,272][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-02 19:46:49,395][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d28c214
+[2024-05-02 19:46:49,396][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-02 19:46:49,424][WARN ][org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl][main][153]HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-05-02 19:46:50,232][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-02 19:46:50,250][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:46:50,250][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee" does not exist, skipping
+[2024-05-02 19:46:50,251][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:46:50,251][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee_training" does not exist, skipping
+[2024-05-02 19:46:50,251][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:46:50,252][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee_training" does not exist, skipping
+[2024-05-02 19:46:50,252][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:46:50,252][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "rekening" does not exist, skipping
+[2024-05-02 19:46:50,252][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:46:50,253][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "detail_employee" does not exist, skipping
+[2024-05-02 19:46:50,253][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:46:50,253][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "employee" does not exist, skipping
+[2024-05-02 19:46:50,254][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:46:50,254][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "employee_training" does not exist, skipping
+[2024-05-02 19:46:50,254][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:46:50,254][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "rekening" does not exist, skipping
+[2024-05-02 19:46:50,254][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:46:50,254][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "training" does not exist, skipping
+[2024-05-02 19:46:50,312][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 19:46:50,505][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-02 19:46:50,599][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-02 19:46:50,890][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-02 19:46:50,903][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-02 19:46:50,912][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started SpringAppApplication in 3.599 seconds (process running for 4.226)
+[2024-05-02 19:46:50,914][ERROR][org.ergea.springapp.ch5.common.LoggerUtils][main][24]TEST ERROR
+java.lang.IllegalArgumentException: P
+	at org.ergea.springapp.SpringAppApplication.main(SpringAppApplication.java:13)
+[2024-05-02 19:46:50,916][INFO ][org.ergea.springapp.ch5.common.LoggerUtils][main][16]TEST INFO
+[2024-05-02 19:46:50,916][WARN ][org.ergea.springapp.ch5.common.LoggerUtils][main][20]TEST WARN
+[2024-05-02 19:46:54,660][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-02 19:46:54,660][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-02 19:46:54,661][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][554]Completed initialization in 1 ms
+[2024-05-02 19:46:54,783][ERROR][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][175]Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at org.ergea.springapp.ch4.service.impl.EmployeeServiceImpl.findById(EmployeeServiceImpl.java:59)
+	at org.ergea.springapp.ch4.controller.HelloController.findById(HelloController.java:59)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-05-02 19:47:25,035][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 19:47:25,085][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-02 19:47:25,096][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-02 19:47:28,563][INFO ][org.hibernate.validator.internal.util.Version][background-preinit][21]HV000001: Hibernate Validator 8.0.1.Final
+[2024-05-02 19:47:28,613][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting SpringAppApplication using Java 18.0.1.1 with PID 16712 (E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp\target\classes started by ridhogymnastiar in E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp)
+[2024-05-02 19:47:28,615][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-02 19:47:29,262][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-02 19:47:29,311][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+[2024-05-02 19:47:29,679][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-02 19:47:29,686][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-02 19:47:29,688][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-02 19:47:29,688][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-02 19:47:29,731][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-02 19:47:29,731][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1050 ms
+[2024-05-02 19:47:29,840][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-02 19:47:29,880][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-02 19:47:29,916][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-02 19:47:30,150][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-02 19:47:30,176][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-02 19:47:30,327][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@14b5752f
+[2024-05-02 19:47:30,329][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-02 19:47:30,360][WARN ][org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl][main][153]HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-05-02 19:47:31,287][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-02 19:47:31,303][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:47:31,303][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee" does not exist, skipping
+[2024-05-02 19:47:31,303][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:47:31,304][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee_training" does not exist, skipping
+[2024-05-02 19:47:31,304][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:47:31,304][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee_training" does not exist, skipping
+[2024-05-02 19:47:31,304][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:47:31,304][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "rekening" does not exist, skipping
+[2024-05-02 19:47:31,305][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:47:31,305][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "detail_employee" does not exist, skipping
+[2024-05-02 19:47:31,305][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:47:31,305][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "employee" does not exist, skipping
+[2024-05-02 19:47:31,306][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:47:31,306][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "employee_training" does not exist, skipping
+[2024-05-02 19:47:31,306][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:47:31,306][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "rekening" does not exist, skipping
+[2024-05-02 19:47:31,307][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:47:31,307][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "training" does not exist, skipping
+[2024-05-02 19:47:31,363][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 19:47:31,595][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-02 19:47:31,667][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-02 19:47:32,051][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-02 19:47:32,077][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-02 19:47:32,088][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started SpringAppApplication in 4.01 seconds (process running for 4.543)
+[2024-05-02 19:47:32,094][ERROR][org.ergea.springapp.ch5.common.LoggerUtils][main][24]TEST ERROR
+java.lang.IllegalArgumentException: P
+	at org.ergea.springapp.SpringAppApplication.main(SpringAppApplication.java:13)
+[2024-05-02 19:47:32,096][INFO ][org.ergea.springapp.ch5.common.LoggerUtils][main][16]TEST INFO
+[2024-05-02 19:47:32,096][WARN ][org.ergea.springapp.ch5.common.LoggerUtils][main][20]TEST WARN
+[2024-05-02 19:47:32,202][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-02 19:47:32,203][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-02 19:47:32,204][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][554]Completed initialization in 1 ms
+[2024-05-02 19:49:44,567][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 19:49:44,615][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-02 19:49:44,624][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-02 19:49:49,427][INFO ][org.hibernate.validator.internal.util.Version][background-preinit][21]HV000001: Hibernate Validator 8.0.1.Final
+[2024-05-02 19:49:49,470][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting SpringAppApplication using Java 18.0.1.1 with PID 22968 (E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp\target\classes started by ridhogymnastiar in E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp)
+[2024-05-02 19:49:49,472][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-02 19:49:50,371][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-02 19:49:50,458][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interface.
+[2024-05-02 19:49:51,114][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-02 19:49:51,125][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-02 19:49:51,126][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-02 19:49:51,126][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-02 19:49:51,168][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-02 19:49:51,169][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1626 ms
+[2024-05-02 19:49:51,278][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-02 19:49:51,320][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-02 19:49:51,364][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-02 19:49:51,605][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-02 19:49:51,628][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-02 19:49:51,774][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2fc7fa6e
+[2024-05-02 19:49:51,777][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-02 19:49:51,808][WARN ][org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl][main][153]HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-05-02 19:49:52,831][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-02 19:49:52,844][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:49:52,845][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee" does not exist, skipping
+[2024-05-02 19:49:52,846][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:49:52,846][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee_training" does not exist, skipping
+[2024-05-02 19:49:52,846][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:49:52,846][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee_training" does not exist, skipping
+[2024-05-02 19:49:52,847][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:49:52,847][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "rekening" does not exist, skipping
+[2024-05-02 19:49:52,847][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:49:52,847][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "detail_employee" does not exist, skipping
+[2024-05-02 19:49:52,873][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:49:52,874][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "employee" does not exist, skipping
+[2024-05-02 19:49:52,874][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:49:52,874][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "employee_training" does not exist, skipping
+[2024-05-02 19:49:52,874][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:49:52,875][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "rekening" does not exist, skipping
+[2024-05-02 19:49:52,875][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:49:52,875][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "training" does not exist, skipping
+[2024-05-02 19:49:52,930][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 19:49:53,263][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-02 19:49:53,375][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-02 19:49:53,719][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-02 19:49:53,735][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-02 19:49:53,744][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started SpringAppApplication in 4.807 seconds (process running for 5.323)
+[2024-05-02 19:49:53,747][ERROR][org.ergea.springapp.ch5.common.LoggerUtils][main][24]TEST ERROR
+java.lang.IllegalArgumentException: P
+	at org.ergea.springapp.SpringAppApplication.main(SpringAppApplication.java:13)
+[2024-05-02 19:49:53,748][INFO ][org.ergea.springapp.ch5.common.LoggerUtils][main][16]TEST INFO
+[2024-05-02 19:49:53,748][WARN ][org.ergea.springapp.ch5.common.LoggerUtils][main][20]TEST WARN
+[2024-05-02 19:49:54,455][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-02 19:49:54,455][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-02 19:49:54,457][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][554]Completed initialization in 2 ms
+[2024-05-02 19:51:19,404][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 19:51:19,492][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-02 19:51:19,529][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-02 19:51:26,123][INFO ][org.hibernate.validator.internal.util.Version][background-preinit][21]HV000001: Hibernate Validator 8.0.1.Final
+[2024-05-02 19:51:26,185][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting SpringAppApplication using Java 18.0.1.1 with PID 16284 (E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp\target\classes started by ridhogymnastiar in E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp)
+[2024-05-02 19:51:26,187][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-02 19:51:27,549][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-02 19:51:27,630][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interface.
+[2024-05-02 19:51:28,444][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-02 19:51:28,457][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-02 19:51:28,462][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-02 19:51:28,463][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-02 19:51:28,530][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-02 19:51:28,531][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 2278 ms
+[2024-05-02 19:51:28,747][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-02 19:51:28,814][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-02 19:51:28,858][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-02 19:51:29,173][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-02 19:51:29,197][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-02 19:51:29,502][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e7bc939
+[2024-05-02 19:51:29,504][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-02 19:51:29,542][WARN ][org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl][main][153]HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-05-02 19:51:30,667][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-02 19:51:30,685][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:51:30,685][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee" does not exist, skipping
+[2024-05-02 19:51:30,686][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:51:30,686][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee_training" does not exist, skipping
+[2024-05-02 19:51:30,686][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:51:30,686][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee_training" does not exist, skipping
+[2024-05-02 19:51:30,687][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:51:30,687][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "rekening" does not exist, skipping
+[2024-05-02 19:51:30,687][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:51:30,687][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "detail_employee" does not exist, skipping
+[2024-05-02 19:51:30,688][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:51:30,688][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "employee" does not exist, skipping
+[2024-05-02 19:51:30,688][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:51:30,688][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "employee_training" does not exist, skipping
+[2024-05-02 19:51:30,689][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:51:30,689][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "rekening" does not exist, skipping
+[2024-05-02 19:51:30,689][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 19:51:30,689][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "training" does not exist, skipping
+[2024-05-02 19:51:30,754][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 19:51:31,015][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-02 19:51:31,082][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-02 19:51:31,457][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-02 19:51:31,477][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-02 19:51:31,487][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started SpringAppApplication in 6.241 seconds (process running for 7.244)
+[2024-05-02 19:51:31,490][ERROR][org.ergea.springapp.ch5.common.LoggerUtils][main][24]TEST ERROR
+java.lang.IllegalArgumentException: P
+	at org.ergea.springapp.SpringAppApplication.main(SpringAppApplication.java:13)
+[2024-05-02 19:51:31,492][INFO ][org.ergea.springapp.ch5.common.LoggerUtils][main][16]TEST INFO
+[2024-05-02 19:51:31,492][WARN ][org.ergea.springapp.ch5.common.LoggerUtils][main][20]TEST WARN
+[2024-05-02 20:04:20,056][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 20:04:20,099][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-02 20:04:20,107][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-02 20:04:24,172][INFO ][org.hibernate.validator.internal.util.Version][background-preinit][21]HV000001: Hibernate Validator 8.0.1.Final
+[2024-05-02 20:04:24,215][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting SpringAppApplication using Java 18.0.1.1 with PID 6264 (E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp\target\classes started by ridhogymnastiar in E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp)
+[2024-05-02 20:04:24,217][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-02 20:04:25,101][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-02 20:04:25,159][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+[2024-05-02 20:04:25,529][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-02 20:04:25,537][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-02 20:04:25,539][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-02 20:04:25,539][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-02 20:04:25,589][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-02 20:04:25,590][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1321 ms
+[2024-05-02 20:04:25,701][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-02 20:04:25,742][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-02 20:04:25,769][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-02 20:04:25,992][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-02 20:04:26,013][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-02 20:04:26,358][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@14b5752f
+[2024-05-02 20:04:26,361][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-02 20:04:26,408][WARN ][org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl][main][153]HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-05-02 20:04:27,522][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-02 20:04:27,537][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:04:27,537][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee" does not exist, skipping
+[2024-05-02 20:04:27,537][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:04:27,538][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee_training" does not exist, skipping
+[2024-05-02 20:04:27,538][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:04:27,538][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee_training" does not exist, skipping
+[2024-05-02 20:04:27,539][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:04:27,539][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "rekening" does not exist, skipping
+[2024-05-02 20:04:27,539][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:04:27,540][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "detail_employee" does not exist, skipping
+[2024-05-02 20:04:27,540][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:04:27,540][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "employee" does not exist, skipping
+[2024-05-02 20:04:27,540][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:04:27,541][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "employee_training" does not exist, skipping
+[2024-05-02 20:04:27,541][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:04:27,541][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "rekening" does not exist, skipping
+[2024-05-02 20:04:27,541][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:04:27,541][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "training" does not exist, skipping
+[2024-05-02 20:04:27,603][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 20:04:27,818][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-02 20:04:27,897][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-02 20:04:28,208][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-02 20:04:28,226][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-02 20:04:28,233][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started SpringAppApplication in 4.57 seconds (process running for 5.047)
+[2024-05-02 20:04:28,235][ERROR][org.ergea.springapp.ch5.common.LoggerUtils][main][24]TEST ERROR
+java.lang.IllegalArgumentException: P
+	at org.ergea.springapp.SpringAppApplication.main(SpringAppApplication.java:13)
+[2024-05-02 20:04:28,237][INFO ][org.ergea.springapp.ch5.common.LoggerUtils][main][16]TEST INFO
+[2024-05-02 20:04:28,237][WARN ][org.ergea.springapp.ch5.common.LoggerUtils][main][20]TEST WARN
+[2024-05-02 20:21:09,470][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 20:21:09,522][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-02 20:21:09,528][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-02 20:21:13,456][INFO ][org.hibernate.validator.internal.util.Version][background-preinit][21]HV000001: Hibernate Validator 8.0.1.Final
+[2024-05-02 20:21:13,499][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting SpringAppApplication using Java 18.0.1.1 with PID 12812 (E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp\target\classes started by ridhogymnastiar in E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp)
+[2024-05-02 20:21:13,501][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-02 20:21:14,231][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-02 20:21:14,278][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+[2024-05-02 20:21:14,631][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-02 20:21:14,642][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-02 20:21:14,643][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-02 20:21:14,644][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-02 20:21:14,685][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-02 20:21:14,685][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1112 ms
+[2024-05-02 20:21:14,793][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-02 20:21:14,830][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-02 20:21:14,855][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-02 20:21:15,020][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-02 20:21:15,039][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-02 20:21:15,182][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6cceb281
+[2024-05-02 20:21:15,184][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-02 20:21:15,220][WARN ][org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl][main][153]HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-05-02 20:21:16,064][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-02 20:21:16,078][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:21:16,079][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee" does not exist, skipping
+[2024-05-02 20:21:16,080][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:21:16,081][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee_training" does not exist, skipping
+[2024-05-02 20:21:16,082][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:21:16,083][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "employee_training" does not exist, skipping
+[2024-05-02 20:21:16,084][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:21:16,084][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]relation "rekening" does not exist, skipping
+[2024-05-02 20:21:16,086][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:21:16,086][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "detail_employee" does not exist, skipping
+[2024-05-02 20:21:16,086][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:21:16,086][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "employee" does not exist, skipping
+[2024-05-02 20:21:16,086][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:21:16,086][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "employee_training" does not exist, skipping
+[2024-05-02 20:21:16,087][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:21:16,087][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "rekening" does not exist, skipping
+[2024-05-02 20:21:16,087][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 20:21:16,087][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]table "training" does not exist, skipping
+[2024-05-02 20:21:16,135][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 20:21:16,323][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-02 20:21:16,667][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-02 20:21:16,917][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-02 20:21:16,932][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-02 20:21:16,939][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started SpringAppApplication in 3.956 seconds (process running for 4.479)
+[2024-05-02 20:21:16,942][ERROR][org.ergea.springapp.ch5.common.LoggerUtils][main][24]TEST ERROR
+java.lang.IllegalArgumentException: P
+	at org.ergea.springapp.SpringAppApplication.main(SpringAppApplication.java:13)
+[2024-05-02 20:21:16,944][INFO ][org.ergea.springapp.ch5.common.LoggerUtils][main][16]TEST INFO
+[2024-05-02 20:21:16,944][WARN ][org.ergea.springapp.ch5.common.LoggerUtils][main][20]TEST WARN
+[2024-05-02 21:32:15,410][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 21:32:15,465][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-02 21:32:15,472][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-02 21:32:22,433][INFO ][org.hibernate.validator.internal.util.Version][background-preinit][21]HV000001: Hibernate Validator 8.0.1.Final
+[2024-05-02 21:32:22,478][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting SpringAppApplication using Java 18.0.1.1 with PID 19748 (E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp\target\classes started by ridhogymnastiar in E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp)
+[2024-05-02 21:32:22,481][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-02 21:32:23,194][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-02 21:32:23,242][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+[2024-05-02 21:32:23,607][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-02 21:32:23,617][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-02 21:32:23,619][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-02 21:32:23,619][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-02 21:32:23,661][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-02 21:32:23,661][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1112 ms
+[2024-05-02 21:32:23,774][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-02 21:32:23,812][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-02 21:32:23,843][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-02 21:32:24,025][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-02 21:32:24,051][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-02 21:32:24,310][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18e6b72b
+[2024-05-02 21:32:24,311][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-02 21:32:24,342][WARN ][org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl][main][153]HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-05-02 21:32:25,221][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-02 21:32:25,347][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][238]SQL Warning Code: 0, SQLState: 00000
+[2024-05-02 21:32:25,348][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler][main][239]constraint "uk_nu40x5pwqjndvtyai714xcd3o" of relation "employee" does not exist, skipping
+[2024-05-02 21:32:25,366][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 21:32:25,591][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-02 21:32:25,948][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-02 21:32:26,285][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-02 21:32:26,304][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-02 21:32:26,312][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started SpringAppApplication in 4.381 seconds (process running for 4.973)
+[2024-05-02 21:32:26,314][ERROR][org.ergea.springapp.ch5.common.LoggerUtils][main][24]TEST ERROR
+java.lang.IllegalArgumentException: P
+	at org.ergea.springapp.SpringAppApplication.main(SpringAppApplication.java:13)
+[2024-05-02 21:32:26,316][INFO ][org.ergea.springapp.ch5.common.LoggerUtils][main][16]TEST INFO
+[2024-05-02 21:32:26,316][WARN ][org.ergea.springapp.ch5.common.LoggerUtils][main][20]TEST WARN
+[2024-05-02 21:32:30,566][INFO ][org.hibernate.validator.internal.util.Version][background-preinit][21]HV000001: Hibernate Validator 8.0.1.Final
+[2024-05-02 21:32:30,616][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingEmployee using Java 18.0.1.1 with PID 10928 (started by ridhogymnastiar in E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp)
+[2024-05-02 21:32:30,620][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-02 21:32:31,441][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-02 21:32:31,505][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interface.
+[2024-05-02 21:32:32,186][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 0 (http)
+[2024-05-02 21:32:32,199][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-auto-1"]
+[2024-05-02 21:32:32,201][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-02 21:32:32,202][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-02 21:32:32,286][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-02 21:32:32,286][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1641 ms
+[2024-05-02 21:32:32,569][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-02 21:32:32,669][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-02 21:32:32,729][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-02 21:32:33,065][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-02 21:32:33,101][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-02 21:32:33,394][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1752e45c
+[2024-05-02 21:32:33,395][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-02 21:32:33,424][WARN ][org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl][main][153]HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-05-02 21:32:34,415][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-02 21:32:34,538][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 21:32:34,889][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-02 21:32:35,411][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-02 21:32:35,994][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-auto-1"]
+[2024-05-02 21:32:36,025][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 52367 (http) with context path ''
+[2024-05-02 21:32:36,040][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started TestingEmployee in 5.89 seconds (process running for 6.854)
+[2024-05-02 21:32:36,735][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 21:32:36,737][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-02 21:32:36,744][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-02 21:32:43,028][INFO ][org.hibernate.validator.internal.util.Version][background-preinit][21]HV000001: Hibernate Validator 8.0.1.Final
+[2024-05-02 21:32:43,063][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingEmployee using Java 18.0.1.1 with PID 16756 (started by ridhogymnastiar in E:\BootCamp SYNRGY Academy Batch 7\SpringApp\SpringApp)
+[2024-05-02 21:32:43,064][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-02 21:32:43,771][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-02 21:32:43,834][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+[2024-05-02 21:32:44,456][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 0 (http)
+[2024-05-02 21:32:44,469][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-auto-1"]
+[2024-05-02 21:32:44,471][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-02 21:32:44,472][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-02 21:32:44,542][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-02 21:32:44,543][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1463 ms
+[2024-05-02 21:32:44,778][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-02 21:32:44,864][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-02 21:32:44,917][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-02 21:32:45,215][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-02 21:32:45,251][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-02 21:32:45,583][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@118cbded
+[2024-05-02 21:32:45,585][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-02 21:32:45,622][WARN ][org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl][main][153]HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-05-02 21:32:46,674][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-02 21:32:46,788][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 21:32:47,114][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-02 21:32:47,527][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-02 21:32:47,993][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-auto-1"]
+[2024-05-02 21:32:48,018][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 52387 (http) with context path ''
+[2024-05-02 21:32:48,034][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started TestingEmployee in 5.482 seconds (process running for 6.362)
+[2024-05-02 21:32:48,624][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 21:32:48,626][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-02 21:32:48,633][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-02 21:56:48,347][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-02 21:56:48,348][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-02 21:56:48,351][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
